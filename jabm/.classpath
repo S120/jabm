@@ -28,5 +28,19 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="lib/spring-aop-3.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-beans-3.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-core-3.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/colt-1.2.0.jar"/>
+	<classpathentry kind="lib" path="lib/infoNode/idw/1.6.1/idw-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="lib/commons-math3-3.2.jar"/>
+	<classpathentry kind="lib" path="lib/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="lib/jfreechart-1.0.14.jar"/>
+	<classpathentry kind="lib" path="lib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-collections-testframework-3.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/jung-api-2.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/collections-generic-4.01.jar"/>
+	<classpathentry kind="lib" path="lib/jung-algorithms-2.0.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

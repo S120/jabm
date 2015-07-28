@@ -123,7 +123,9 @@ public class RlStrategy extends AbstractRlStrategy
 	public void setInitialPropensities(double[] initialPropensities) {
 		StatelessQLearner qLearner = (StatelessQLearner) this.learner;
 		double[] propensities = qLearner.getqLearner().getValueEstimates(0);
-		System.arraycopy(initialPropensities, 0, propensities, 0, actions.length);
+		for(int i=0; i<actions.length; i++) {
+			propensities[i] = initialPropensities[i];
+		}
 	}
 
 	public int getNumberOfActions() {
