@@ -28,5 +28,10 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/jabm/lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="/jabm/lib/spring-aop-3.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/jabm/lib/spring-beans-3.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/jabm/lib/spring-core-3.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/jabm/lib/colt-1.2.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
